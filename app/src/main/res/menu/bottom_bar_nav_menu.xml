@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mission"
+        android:title="Mission"
+        android:icon="@drawable/ic_storage_black_24dp"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/mapButton"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="Chat Room"
+        app:showAsAction="always" />
+</menu>

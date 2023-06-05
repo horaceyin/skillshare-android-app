@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/blueDark"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/txtclose"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end"
+        android:background="@drawable/cancel_background"
+        android:gravity="center"
+        android:text="X"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="New Mission"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <ImageButton
+        android:id="@+id/imageSelect"
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:background="#00ffffff"
+        app:srcCompat="@drawable/ic_add_black_24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="20dp"
+            android:textColorHint="@color/StatusBarColor"
+            app:hintTextAppearance="@style/TextInputHint">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/titleField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/editTextBottomLine"
+                android:hint="Tell everybody your needs"
+                android:singleLine="true"
+                android:textColor="@color/StatusBarColor"
+                android:textStyle="bold" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColorHint="@color/StatusBarColor"
+            app:hintTextAppearance="@style/TextInputHint">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/descField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/editTextBottomLine"
+                android:enabled="true"
+                android:focusable="true"
+                android:hint="More details"
+                android:inputType="textMultiLine"
+                android:isScrollContainer="true"
+                android:maxLines="3"
+                android:minLines="1"
+                android:scrollbars="vertical"
+                android:textColor="@color/StatusBarColor"
+                android:textStyle="bold" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/districtSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/custompopup_ok_button"
+        android:text="Make a Deal"
+        android:textColor="@color/white" />
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Skillshare</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="plz_input_accout">Please enter your email</string>
+    <string name="plz_input_pw">Please enter your password</string>
+    <string name="register_success"></string>
+
+    <string-array name="district">
+        <item>Central and Western</item>
+        <item>Eastern</item>
+        <item>Southern</item>
+        <item>Wan Chai</item>
+        <item>Sham Shui Po</item>
+        <item>Kowloon City</item>
+        <item>Kwun Tong</item>
+        <item>Wong Tai Sin</item>
+        <item>Yau Tsim Mong</item>
+        <item>Islands</item>
+        <item>Kwai Tsing</item>
+        <item>North</item>
+        <item>Sai Kung</item>
+        <item>Sha Tin</item>
+        <item>Tai Po</item>
+        <item>Tsuen Wan</item>
+        <item>Tuen Mun</item>
+        <item>Yuen Long</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

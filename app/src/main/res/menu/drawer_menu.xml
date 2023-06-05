@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    tool:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home/Chat" />
+
+        <item
+            android:id="@+id/nav_member"
+            android:icon="@drawable/ic_member"
+            android:title="Member" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Setting" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="BYE !!"/>
+
+
+    </group>
+
+
+</menu>

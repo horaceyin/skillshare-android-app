@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- No action bar theme-->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/StatusBarColor</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="TextInputHint" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">#ece2df</item>
+    </style>
+
+</resources>

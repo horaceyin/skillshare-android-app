@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="555dp"
+    android:background="@color/blueDark"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/txtclose"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/cancel_background"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:text="X"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="New Mission"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:hintTextAppearance="@style/TextInputHint"
+            android:textColorHint="@color/StatusBarColor"
+            android:paddingBottom="20dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/txtYourNeeds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/editTextBottomLine"
+                android:hint="Tell everybody your needs"
+                android:singleLine="true"
+                android:textColor="@color/StatusBarColor"
+                android:textStyle="bold" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:hintTextAppearance="@style/TextInputHint"
+            android:textColorHint="@color/StatusBarColor">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/txtMoreDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/editTextBottomLine"
+                android:hint="More details"
+                android:textColor="@color/StatusBarColor"
+                android:textStyle="bold"
+                android:inputType="textMultiLine"
+                android:enabled="true"
+                android:minLines="1"
+                android:maxLines="3"
+                android:isScrollContainer="true"
+                android:focusable="true"
+                android:scrollbars="vertical" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Montreal,Canada"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@color/orange"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="150"
+                android:textSize="18sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Followers"
+                android:textSize="18sp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/green"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19"
+                android:textSize="18sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cities"
+                android:textSize="18sp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/blueLight"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50"
+                android:textSize="18sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Posts"
+                android:textSize="18sp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnfollow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make a Deal"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/custompopup_ok_button"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

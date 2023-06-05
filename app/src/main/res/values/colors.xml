@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="lightGrey">#e8ebec</color>
+    <color name="grey">#253A4B</color>
+    <color name="BottomBarColor">#412636</color>
+
+    <color name="StatusBarColor">#ece2df</color>
+    <color name="editTextBottomLine">#e6e2a1</color>
+
+
+    <color name="blueDark">#2F333F</color>
+    <color name="blueLight">#49ACD5</color>
+    <color name="green">#45BC62</color>
+    <color name="orange">#EAAD43</color>
+    <color name="white">#FFF</color>
+</resources>

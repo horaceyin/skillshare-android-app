@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "30488271259",
+    "firebase_url": "https://skillshare-61699.firebaseio.com",
+    "project_id": "skillshare-61699",
+    "storage_bucket": "skillshare-61699.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30488271259:android:b0b23885f4110d5398293e",
+        "android_client_info": {
+          "package_name": "com.randi_horace.skillshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30488271259-fdbcjjpdr9dupvdp7b6k2f5dnqqb7sk2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.randi_horace.skillshare",
+            "certificate_hash": "98c5252a28cd6a7c2e44e92ac242c7396e09e276"
+          }
+        },
+        {
+          "client_id": "30488271259-j8mn2ukuvq5tslq83vq514d6fsi6vbkp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.randi_horace.skillshare",
+            "certificate_hash": "9d8127e379eda0ff027e21086915fa818e90f9a4"
+          }
+        },
+        {
+          "client_id": "30488271259-gnbog7819lp30jla5b106kibbbjjhq9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOOzjj1wtqlSbhXpv_OtgSaVD9682NlNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30488271259-gnbog7819lp30jla5b106kibbbjjhq9m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

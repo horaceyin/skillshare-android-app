@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/post_image"
+            android:layout_width="match_parent"
+            android:layout_height="247dp"
+            android:padding="8dp"
+            app:srcCompat="@android:drawable/ic_menu_add" />
+
+        <TextView
+            android:id="@+id/post_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Post Title"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/post_desc"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:padding="8dp"
+            android:text="Post Description"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/post_dist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="District" />
+
+        <TextView
+            android:id="@+id/post_uid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="UID" />
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
